@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - Check for a digit
+ * check for digit (0 throught 9)
  *@c: Number of arguement
  * Return: 1 or 0.
  */
