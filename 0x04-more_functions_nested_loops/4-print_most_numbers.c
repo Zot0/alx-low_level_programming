@@ -14,9 +14,8 @@ void print_most_numbers(void)
 	{
 		if (i != 2 && i != 4)
 		{
-			_puthchar(i);
-			continue;
+			_puthchar(i)
 		}
-		_putchar('\n')
 	}
+	_putchar('\n')
 }
