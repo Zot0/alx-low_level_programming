@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memcpy - copies memoru area
- * @dest: W
- * @rc:
- * @n:
+ * _memcpy - copies memory area
+ * @dest: Pointer memory area is copied too
+ * @src: Pointer memory area is copied from
+ * @n: Value of byes copied
  *
  * Return: poiter to dest
  */
