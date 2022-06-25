@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int a, b = 0, d, e;
 	int c[5] = {25, 10, 5, 2, 1};
 
-	if (argc != 1)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
