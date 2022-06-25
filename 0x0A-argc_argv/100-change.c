@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b = 0, c, d;
+	int a, b = 0, d, e;
 	int c[5] = {25, 10, 5, 2, 1};
 
 	if (argc != 1)
@@ -26,15 +26,15 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (c = 0; c < 5; c++)
+		for (d = 0; d < 5; d++)
 		{
-			d = d / c[c];
-			a -= d * c[c];
-			n += d;
+			e = a / c[d];
+			a -= e * c[d];
+			b += e;
 			if (a == 0)
 				break;
 		}
 	}
-	printf("%d\n", n);
+	printf("%d\n", b);
 	return (0);
 }
