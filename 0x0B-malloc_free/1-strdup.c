@@ -11,13 +11,13 @@
 char *_strdup(char *str)
 {
 	char *str2;
-	unsigned int a, b;
+	unsigned int b;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	str2 = (char *)malloc(a * sizeof(char));
+	str2 = (char *)malloc(sizeof(char));
 	if (str2 == NULL)
 	{
 		return (NULL);
