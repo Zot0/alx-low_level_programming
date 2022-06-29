@@ -11,13 +11,15 @@
 char *_strdup(char *str)
 {
 	char *str2;
-	unsigned int b;
+	unsigned int a, b;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	str2 = (char *)malloc(sizeof(char));
+	for (a = 0; str[n] != '\0'; a++)
+		;
+	str2 = (char *)malloc(a + 1 sizeof(char));
 	if (str2 == NULL)
 	{
 		return (NULL);
@@ -26,6 +28,5 @@ char *_strdup(char *str)
 	{
 	str2[b] = str[b];
 	}
-	str2[b] = '\0';
 	return (str2);
 }
