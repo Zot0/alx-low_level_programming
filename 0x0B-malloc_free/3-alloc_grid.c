@@ -3,7 +3,7 @@
 
 /**
  * alloc_grid - Returns pointer to a 2d array
- * @width: Rows 
+ * @width: Rows
  * @height: Columns
  *
  * Return: Pointer or NULL otherwise
