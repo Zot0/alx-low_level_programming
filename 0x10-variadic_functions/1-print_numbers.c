@@ -3,14 +3,14 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings -Print strings
+ * print_numbers -Print numbers
  *@separator: Printed between numbers
  *@n: Number of arguments
  * Return: the sum of the arguments
  */
-void print_strings(const char *separator, const unsigned int n, ...)
-{
 
+void print_numbers(const char *separator, const unsigned int n, ...)
+{
 	va_list li;
 	unsigned int i;
 
@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%d", va_arg(li, int));
 
 		if (i != (n - 1) && separator != NULL)
-			printf("%s", separator);
+		printf("%s", separator);
 	}
 	printf("\n");
 	va_end(li);
